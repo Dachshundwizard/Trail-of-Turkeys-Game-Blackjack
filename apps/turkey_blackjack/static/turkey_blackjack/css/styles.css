@@ -1,0 +1,228 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body {
+	background-image: url('../images/Leaves.jpg');
+	background-size: cover;
+}
+
+main {
+	border: 1px solid gray;
+	box-shadow: 1px 1px 5px gray;
+	margin: 30px auto 0;
+	background: url('../images/Table.png') no-repeat 0 0;
+	background-size: cover;
+	height: 600px;
+	width: 691px;
+}
+
+form {
+	margin: 10px auto;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: right;
+}
+
+label, input {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 5px 0;
+}
+
+input {
+	padding: 3px;
+}
+
+.ten {
+	width: 10%;
+}
+
+.twenty {
+	width: 20%;
+}
+
+.thirty {
+	width: 30%;
+}
+
+.forty {
+	width: 40%;
+}
+
+.fifty {
+	width: 50%;
+}
+
+.sixty {
+	width: 60%;
+}
+
+.seventy {
+	width: 70%;
+}
+
+.eighty {
+	width: 80%;
+}
+
+.ninety {
+	width: 90%;
+}
+
+.hundo {
+	width: 100%;
+}
+
+.btn {
+	display: inline-block;
+	margin: 10px 0;
+	width: 5.5em;
+	height: 1.5em;
+	font-size: .9em;
+	font-weight: bold;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+}
+
+.btn-dflt {
+	background: linear-gradient(lightgray, gray);
+	padding: 3px;
+	text-align: center;
+}
+.btn-imp {
+	background: linear-gradient(white, red 20%);
+	color: yellow;
+	padding: 3px;
+	text-align: center;
+}
+
+.btn-pop {
+	background: linear-gradient(white, blue 20%);
+	padding: 3px;
+	color: white;
+	text-align: center;
+}
+
+.btn:hover {
+	cursor: pointer;
+	box-shadow: 1px 1px 5px black;
+}
+
+.red {
+	background-color: red;
+	color: white;
+}
+
+.green {
+	background-color: green;
+	color: black;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.notif {
+	padding: 5px;
+}
+
+.hidden{
+	display: none;
+}
+
+#moves {
+	text-align: center;
+	vertical-align:middle;
+}
+
+#yourHand, #dealerHand {
+	height: 200px;
+	text-align: center;
+}
+
+#yourHand {
+	padding: 10% 0 0;
+}
+
+#dealerHand {
+	margin-top: 10px;
+	padding: 10% 0 0;
+}
+
+#message {
+	text-align: center;
+	height: 100px;
+	padding: 30px;
+	font-size: 3em;
+}
+
+#yourScore {
+	text-align: center;
+}
+
+#buttons {
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px 0 0;
+}
+
+#bet {
+	font-weight: bold;
+	padding: 0;
+	font-size: 1em;
+	text-align: center;
+	color: red;
+}
+
+#money {
+	margin: 0 0 5px 10px;
+}
+
+#stay, #reset, #dbl {
+	margin-left: 10px;
+}
+
+#dbl {
+	width: 7em;
+	background: linear-gradient(gray, gold);
+	color: white;
+}
+
+#home {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	padding: 0;
+}
+
+#logout {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 40px;
+	margin-left: 10px;
+}
+
+.theme{
+	font-family: "Courier New", Courier, monospace;
+	color: yellow;
+	text-shadow: 1px 1px #f00000;
+}
+
+.card {
+	width: 63px;
+	height: 93px;
+	display: inline-block;
+	margin-left: 15px;
+}
